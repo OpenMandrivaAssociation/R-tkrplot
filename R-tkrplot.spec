@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.0_23
+Version:          0.0.23
 Release:          1
 Summary:          TK Rplot
 Group:            Sciences/Mathematics
 License:          GPL
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.0-23.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/tkrplot_0.0-23.tar.gz
 Requires:         R-grDevices R-tcltk 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-grDevices R-tcltk
 
@@ -46,4 +46,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 775029
 - Import R-tkrplot
 - Import R-tkrplot
+
 
