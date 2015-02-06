@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.0_23
-Release:          2
+Release:          3
 Summary:          TK Rplot
 Group:            Sciences/Mathematics
 License:          GPL
