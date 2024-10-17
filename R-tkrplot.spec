@@ -7,7 +7,7 @@ Release:          3
 Summary:          TK Rplot
 Group:            Sciences/Mathematics
 License:          GPL
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.0-23.tar.gz
 Requires:         R-grDevices R-tcltk 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-grDevices R-tcltk
